@@ -1,0 +1,35 @@
+.display {
+    display: flex;
+    align-items: center;
+}
+
+.code__container {
+    width: 90%;
+}
+
+.use-background {
+    width: 124px;
+    height: 44px;
+    background: url('./assets/rs-school.svg');
+}
+
+.use-object,
+.use-inline {
+    width: 124px;
+    height: 44px;
+}
+
+.use-inline:hover .change {
+    cursor: pointer;
+    fill:#094d17;
+}
+
+.use-object:hover {
+    cursor: pointer;
+}
+
+.use-object:hover .change {
+    cursor: pointer;
+    fill:#094d17;
+}
+
